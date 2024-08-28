@@ -5,13 +5,14 @@ const NavItem = ({ icon, title, active,to }: any) => {
     <NavLink
       to={to}
       className={`inline-flex gap-2 rounded-md ${
-        active && "bg-lime-100"
-      }  items-center  px-3 py-3`}
+        active && "bg-neutral-900 dark:bg-neutral-800"
+      }  items-center px-3 h-10`}
     >
       {icon}
+
       <h1
-        className={`text-sm capitalize  ${
-          active ? "font-bold text-lime-700" : "font-semibold text-neutral-800"
+        className={`text-sm capitalize font-semibold  ${
+          active ? " text-white" : " text-neutral-900 dark:text-neutral-500"
         }`}
       >
         {title}
