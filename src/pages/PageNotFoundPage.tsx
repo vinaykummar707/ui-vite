@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const PageNotFoundPage = () => {
   return (
-    <div className='bg-stone flex-1'>
-      PageNotFoundPage
-    </div>
-  )
-}
+    <div className="text-white bg-neutral-100 dark:bg-neutral-900 flex-1">PageNotFoundPage</div>
+  );
+};
 
-export default PageNotFoundPage
+export default PageNotFoundPage;
