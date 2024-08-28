@@ -6,7 +6,7 @@ const NavItem = ({ icon, title, active, to }: any) => {
       to={to}
       className={`inline-flex gap-2 rounded-md ${
         active && "bg-neutral-900 dark:bg-neutral-700"
-      }  items-center px-3 h-10`}
+      }  items-center px-3 h-9`}
     >
       {icon}
 

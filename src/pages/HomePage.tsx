@@ -28,7 +28,7 @@ import { useEffect } from "react";
 import LogoSideBar from "../components/LogoSideBar";
 
 const HomePage = () => {
-  const iconSize = 20;
+  const iconSize = 18;
   const location = useLocation();
 
   const isRouterActive = (path: string) => location.pathname.includes(path);
@@ -163,16 +163,16 @@ const HomePage = () => {
   });
   return (
     <div className="h-screen  w-screen flex flex-col">
-      <div className="h-10 border-b px-4 inline-flex items-center justify-center  dark:border-neutral-700 bg-pink-500 dark:bg-pink-700">
-        <p className="text-xs font-medium tracking-wide text-white">
+      <div className="h-10 border-b px-4 inline-flex items-center justify-center  dark:border-neutral-700 bg-lime-400 dark:bg-lime-400">
+        <p className="text-xs font-semibold tracking-wide text-neutral-900">
           New Version 2.14 is released. Please do a ctrl+shift+r to get new
           features
         </p>
       </div>
       <div className="h-14 border-b px-4 inline-flex items-center justify-between dark:bg-neutral-800 dark:border-neutral-700 bg-white">
         <div className="inline-flex items-center gap-2">
-          <div className="size-7 bg-pink-500 rounded-xl"></div>
-          <h1 className="font-extrabold dark:text-white text-xl">Nephbuddy</h1>
+          <div className="size-7 bg-lime-400 rounded-lg"></div>
+          <h1 className="font-extrabold dark:text-white text-lgxxxx ">Nephbuddy</h1>
         </div>
 
         <div className="inline-flex items-center gap-2">

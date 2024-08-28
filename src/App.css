@@ -1,0 +1,14 @@
+.ptn {
+	background-color: hsla(355, 0%, 0%, 1);
+	background-image: radial-gradient(
+			at 0% 23%,
+			hsla(321, 68%, 75%, 1) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 82% 59%, hsla(9, 70%, 67%, 1) 0px, transparent 50%),
+		radial-gradient(at 65% 46%, hsla(284, 65%, 64%, 1) 0px, transparent 50%),
+		radial-gradient(at 37% 26%, hsla(337, 78%, 69%, 1) 0px, transparent 50%),
+		radial-gradient(at 26% 1%, hsla(92, 78%, 73%, 1) 0px, transparent 50%),
+		radial-gradient(at 39% 96%, hsla(273, 67%, 69%, 1) 0px, transparent 50%),
+		radial-gradient(at 76% 67%, hsla(314, 70%, 60%, 1) 0px, transparent 50%);
+}
